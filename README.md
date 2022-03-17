@@ -1,2 +1,4 @@
-# web-231
- web231 repository
+# WEB 231 Enterprise JavaScript I
+## Contributors 
+* Anita taylor 
+* Richard Krasso 

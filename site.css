@@ -7,8 +7,23 @@ body {
     margin-left: 100px;
     margin-right: 100px;
 }
-	h1 h2 h3 h4{ background-color: #3C275A;
-    font-color: #fff;
+	h1 {background-color: #3C275A;
+    color: #ffffff;
+	 border: 1px solid #D6A800;
+    padding: 10px;
+}
+h2 {background-color: #3C275A;
+    color: #ffffff;
+	 border: 1px solid #D6A800;
+    padding: 10px;
+}
+h3{background-color: #3C275A;
+    color: #ffffff;
+	 border: 1px solid #D6A800;
+    padding: 10px;
+}
+h4{background-color: #3C275A;
+    color: #ffffff;
 	 border: 1px solid #D6A800;
     padding: 10px;
 }
@@ -24,7 +39,7 @@ a:visited {
 
 a:hover {
   background-color: #D6A800;
-	text-color: #4F3674;
+	font-color: #4F3674;
   text-decoration: none;
 }
 

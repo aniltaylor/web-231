@@ -1,1 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
 
+
+#Employee-Record-1 {
+	border: 1px dotted red;
+    width: 100%;
+	font-family: Oswald, Verdana, Arial, sans-serif;
+	background-color: #fff;
+    float: left;
+	Padding-bottom: 10px;
+
+	clear: both;
+overflow: hidden;	
+	}
+#Employee-Record-2 {
+	border: 1px dotted red;
+    width: 100%;
+	font-family: Oswald, Verdana, Arial, sans-serif;
+	background-color: #fff;
+	float: left;
+
+	Padding-bottom:10px;
+	clear: both;
+overflow: hidden;	
+	}
+#Employee-Record-3 {
+	border: 1px dotted red;
+    width: 100%;
+	font-family: Oswald, Verdana, Arial, sans-serif;
+	background-color: #fff;
+	float: left;
+	Padding-bottom: 10px;
+	clear: both; 
+overflow: hidden;	
+	}

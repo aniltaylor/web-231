@@ -1,1 +1,119 @@
+<!doctype html>
+<html lang="en">
+ <head>
+<meta charset="utf-8">
+<!-- HTML -->
+<title>WEB231-312j-Enterprise-JavaScript-1</title>
+<link href="taylor-payroll.css" rel="stylesheet" type="text/css">
+<link href="site.css" rel="stylesheet" type="text/css">
+<!-- Google fonts for Oswald -->
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>	
+ <header>
+
+ <h1 id="payroll-header">Payroll System</h1>
+<p>&nbsp;</p>
+</header>
+    <!--Employee 1 records to be filled out by JavaScript.-->  
+       <div id= "Employee-Record-1" newDate= "myFunction">
+          <h3>Employee record 1</h3>
+            <ul>
+                <li id="txtFirstNameLudwig"></li>
+                <li id="txtLastNameBeethoven"></li>
+                <li id="txtAddressLudwig"></li>
+                <li id="txtHireDateLudwig"></li>
+                <li id="txtPayRateLudwig"></li>
+            </ul>
+        </div>
+<script>
+      // Data for Employee 1
+        const txtFirstNameLudwig = "Ludwig";
+          document.getElementById("txtFirstNameLudwig").innerHTML = txtFirstNameLudwig;
+        
+        const txtLastNameBeethoven = "Beethoven";
+          document.getElementById("txtLastNameBeethoven").innerHTML = txtLastNameBeethoven;
+
+
+        let txtAddressLudwig = "505 main street";
+          document.getElementById("txtAddressLudwig").innerHTML = txtAddressLudwig;
+        
+  
+        // Date will be updated to new date.
+        let txtHireDateLudwig = "12/9/2020";
+          document.getElementById("txtHireDateLudwig").innerHTML = new Date().toLocaleDateString("en-US");
+     
+        //Pay rate will be fixed to one decimal point.
+        let txtPayRateLudwig = 18.8;
+          document.getElementById("txtPayRateLudwig").innerHTML = ((18.899).toFixed(1));</script>
+
+<!--Employee 2 records to be filled out by JavaScript.-->  
+       <div id= "Employee-Record-2" newDate= "myFunction">
+          <h3>Employee record 2</h3>
+            <ul>
+                <li id="txtFirstNameJohann"></li>
+                <li id="txtLastNameBach"></li>
+                <li id="txtAddressJohann"></li>
+                <li id="txtHireDateJohann"></li>
+                <li id="txtPayRateJohann"></li>
+            </ul>
+        </div>
+<script>
+      // Data for Employee 2
+        const txtFirstNameJohann = "Johann";
+          document.getElementById("txtFirstNameJohann").innerHTML = txtFirstNameJohann;
+        
+        const txtLastNameBach = "Bach";
+          document.getElementById("txtLastNameBach").innerHTML = txtLastNameBach;
+
+
+        let txtAddressJohann = "512 main street";
+          document.getElementById("txtAddressJohann").innerHTML = txtAddressJohann;
+        
+  
+        // Date will be updated to new date.
+        let txtHireDateJohann = "12/9/2020";
+          document.getElementById("txtHireDateJohann").innerHTML = new Date().toLocaleDateString("en-US");
+     
+        //Pay rate will be fixed to one decimal point.
+        let txtPayRateJohann =25.5 ;
+          document.getElementById("txtPayRateJohann").innerHTML = ((25.599).toFixed(1));</script>
+
+
+<!--Employee 3 records to be filled out by JavaScript.-->  
+       <div id= "Employee-Record-3" newDate= "myFunction">
+          <h3>Employee record 3</h3>
+            <ul>
+                <li id="txtFirstNameWolfgang"></li>
+                <li id="txtLastNameMozart"></li>
+                <li id="txtAddressWolfgang"></li>
+                <li id="txtHireDateWolfgang"></li>
+                <li id="txtPayRateWolfgang"></li>
+            </ul>
+        </div>
+<script>
+      // Data for Employee 3
+        const txtFirstNameWolfgang = "Wolfgang";
+          document.getElementById("txtFirstNameWolfgang").innerHTML = txtFirstNameWolfgang;
+        
+        const txtLastNameMozart = "Mozart";
+          document.getElementById("txtLastNameMozart").innerHTML = txtLastNameMozart;
+
+
+        let txtAddressWolfgang = "600 main street";
+          document.getElementById("txtAddressWolfgang").innerHTML = txtAddressWolfgang;
+        
+  
+        // Date will be updated to new date.
+        let txtHireDateWolfgang = "12/9/2020";
+          document.getElementById("txtHireDateWolfgang").innerHTML = new Date().toLocaleDateString("en-US");
+     
+        //Pay rate will be fixed to one decimal point.
+        let txtPayRateWolfgang = 5.1;
+          document.getElementById("txtPayRateWolfgang").innerHTML = ((50.199).toFixed(1));</script> 
+           <!--Return link that sends you to WEB 231 landing page in new tab.-->  
+        <a class="return-home" target="_blank" href="https://aniltaylor.github.io/web-231/">Return</a>
+                
+</body>
+</html>
 

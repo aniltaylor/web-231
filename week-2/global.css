@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-/*css with styling for return home button on hellojavascript.html*/
+/*css with styling for return home button on hellojavascript.html including color removal of line, link, visited, hover with colors*/
 
 .return-home {color: #4F3674;
  text-decoration: none;
@@ -9,3 +9,14 @@
  .return-home:visited {color: #3C275A;}
  .return-home:hover {background-color: #D6A800;
  color: #4f3674;}
+/*
+============================================
+; Title: Assignment 2.2
+; Author: Professor Krasso
+; Date: 25 MAR 2022
+; Modified By: <ANITA TAYLOR>
+; Description: This program demonstrates the
+; use of JavaScript types, values, and
+; and variables in an application.
+;===========================================
+*/ 

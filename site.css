@@ -1,13 +1,16 @@
 /* CSS Document */
+/* margins set in body to 100px */
 body {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
 	margin-left: 100px;
     margin-right: 100px;
 }
+/* margins set in container to 50px */
 #container {
     margin-top: 50px;
     
 }
+/* set h1-4 to bg color font colr and border plus padding */
 	h1 {background-color: #3C275A;
     color: #ffffff;
 	 border: 1px solid #D6A800;
@@ -28,6 +31,7 @@ h4{background-color: #3C275A;
 	 border: 1px solid #D6A800;
     padding: 10px;
 }
+/* set anchor tag color remove underline also hover color with font color and visited font color */
 a {color: #453674;
 }
 a:link {

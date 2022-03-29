@@ -15,7 +15,7 @@
  <h1 id="payroll-header">Payroll System</h1>
 <p>&nbsp;</p>
 </header>
-    <!--Employee 1 records to be filled out by JavaScript.-->  
+    // Employee 1 records with UL li id= txtFirstName, txtLastName, txtAddress, txtHireDate, txtPayRate  
        <div id= "Employee-Record-1" newDate= "myFunction">
           <h3>Employee record 1</h3>
             <ul>
@@ -27,7 +27,6 @@
             </ul>
         </div>
 <script>
-      // Data for Employee 1
         const txtFirstNameLudwig = "Ludwig";
           document.getElementById("txtFirstNameLudwig").innerHTML = txtFirstNameLudwig;
         
@@ -38,16 +37,13 @@
         let txtAddressLudwig = "505 main street";
           document.getElementById("txtAddressLudwig").innerHTML = txtAddressLudwig;
         
-  
-        // Date will be updated to new date.
+     // Employee 1 toLocaleDateString("en-US")
         let txtHireDateLudwig = "12/9/2020";
           document.getElementById("txtHireDateLudwig").innerHTML = new Date().toLocaleDateString("en-US");
-     
-        //Pay rate will be fixed to one decimal point.
+             //Pay rate toFixed(1)
         let txtPayRateLudwig = 18.8;
           document.getElementById("txtPayRateLudwig").innerHTML = ((18.899).toFixed(1));</script>
 
-<!--Employee 2 records to be filled out by JavaScript.-->  
        <div id= "Employee-Record-2" newDate= "myFunction">
           <h3>Employee record 2</h3>
             <ul>
@@ -59,7 +55,7 @@
             </ul>
         </div>
 <script>
-      // Data for Employee 2
+      // Employee 2 records with UL li id= txtFirstName, txtLastName, txtAddress, txtHireDate, txtPayRate
         const txtFirstNameJohann = "Johann";
           document.getElementById("txtFirstNameJohann").innerHTML = txtFirstNameJohann;
         
@@ -71,16 +67,16 @@
           document.getElementById("txtAddressJohann").innerHTML = txtAddressJohann;
         
   
-        // Date will be updated to new date.
+        // Employee 2 toLocaleDateString("en-US") 
         let txtHireDateJohann = "12/9/2020";
           document.getElementById("txtHireDateJohann").innerHTML = new Date().toLocaleDateString("en-US");
      
-        //Pay rate will be fixed to one decimal point.
+          //Pay rate toFixed(1)
         let txtPayRateJohann =25.5 ;
           document.getElementById("txtPayRateJohann").innerHTML = ((25.599).toFixed(1));</script>
 
 
-<!--Employee 3 records to be filled out by JavaScript.-->  
+  //  Employee 3 toLocaleDateString("en-US")  
        <div id= "Employee-Record-3" newDate= "myFunction">
           <h3>Employee record 3</h3>
             <ul>
@@ -92,7 +88,7 @@
             </ul>
         </div>
 <script>
-      // Data for Employee 3
+      // Employee 3 records with UL li id= txtFirstName, txtLastName, txtAddress, txtHireDate, txtPayRate
         const txtFirstNameWolfgang = "Wolfgang";
           document.getElementById("txtFirstNameWolfgang").innerHTML = txtFirstNameWolfgang;
         
@@ -104,11 +100,11 @@
           document.getElementById("txtAddressWolfgang").innerHTML = txtAddressWolfgang;
         
   
-        // Date will be updated to new date.
+       // Employee 2 toLocaleDateString("en-US")
         let txtHireDateWolfgang = "12/9/2020";
           document.getElementById("txtHireDateWolfgang").innerHTML = new Date().toLocaleDateString("en-US");
      
-        //Pay rate will be fixed to one decimal point.
+        //Pay rate toFixed(1)
         let txtPayRateWolfgang = 5.1;
           document.getElementById("txtPayRateWolfgang").innerHTML = ((50.199).toFixed(1));</script> 
            <!--Return link that sends you to WEB 231 landing page in new tab.-->  

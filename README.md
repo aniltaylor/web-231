@@ -1,3 +1,4 @@
+/*variable to hold my class name contributors teacher and my name*/
 # WEB 231 Enterprise JavaScript I
 ## Contributors 
 * Richard Krasso 

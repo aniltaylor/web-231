@@ -1,0 +1,57 @@
+/* CSS Document */
+
+/*
+
+============================================
+
+; Title: Assignment 1.3
+
+; Author: Professor Krasso
+
+; Date: 25 MAR 2022
+
+; Modified By: <ANITA TAYLOR>
+
+; Description: This program demonstrates the
+
+; use of JavaScript types, values, and
+
+; and variables in an application.
+
+;===========================================
+
+*/
+
+ .app-header {margin-left: 200px; margin-right: 200px; font-size: 28px;}
+
+body
+
+{ text-align: center;
+
+font-size: 28px;
+
+    font-family: 'Oswald', Verdana, Arial, sans-serif;             
+
+}
+
+button {font-size: 16px; width: 300px; height: 40px;
+
+background-color: #3C275A; color: #ffffff; border-radius: 5px; margin-top: 20px; margin-bottom: 30px;
+
+}
+
+.form-group {padding-top: 20px; padding-bottom: 10px; font-size: 16px;}
+
+.card-title {color: #3C275A; font-size: 28px; height: 80px; padding-left: 50px; padding-right: 50px;
+
+}
+#txtFahrenheit{margin-left: 0px; margin-right: 300px;}
+button {margin-right: 320px;}
+
+#container{ text-align: center; box-shadow: 1px 2px 1px 2px #888888; margin-left: 240px; margin-right: 240px;} 
+#container1{ text-align: center; box-shadow: 1px 2px 1px 2px #888888; margin-left: 240px; margin-right: 240px;} 
+ 
+
+.return-home {margin-top: 20px; float: left; margin-left: 250px; text-decoration: none;
+
+font-size: 16px;}

@@ -2,12 +2,12 @@
 /* margins set in body to 100px */
 body {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
-	margin-left: 100px;
-    margin-right: 100px;
+	;
 }
-/* margins set in container to 50px */
+/* margins set in container to 50px/100px */
 #container {
-    margin-top: 50px;
+    margin-top: 50px;margin-left: 100px;
+    margin-right: 100px;
     
 }
 /* set h1-4 to bg color font colr and border plus padding */

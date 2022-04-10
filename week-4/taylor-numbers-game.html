@@ -1,0 +1,83 @@
+
+<!DOCTYPE html> 
+<html lang="en-us">
+    <head>
+        <title>Fahrenheit to Celsius Converter  </title>   
+        <link href="taylor-number-game.css" type="text/css" rel="stylesheet">               
+        <link href="../../global.css" type="text/css" rel="stylesheet">                       
+        <link href="../../site.css" type="text/css" rel="stylesheet">                 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+         <!--
+============================================
+Title: Assignment 4.2
+Author: Professor Krasso
+Date: Apr 09 2022
+Modified By: ANITA TAYLOR
+Description: This program demos the use of if,else if, else.
+===========================================
+-->
+<!--Below is html code-->
+    <title>WEB231-312j-Enterprise-JavaScript-1</title>
+   <header>
+<h1 class="app-header">Welcome to the numbers game!</h1>
+</header>
+   <div id="container">            
+     <div class="card">
+        <div class="card-title">Pick a number between 1 and 10</div>
+            <div class="form-field">
+                <label  for="txtMyNumber">Guess the number:</label>
+                <input type="text" id="txtMyNumber" name="txtMyNumber"> 
+                <div class="form-field">
+                    <button id="btnSubmit" class="btn btn-primary" onclick="myNumber()">Submit</button>
+            </div>                        
+       </div>
+	   </div>
+  <script>
+// JS to generate a random number between 1 and 10
+    function myNumber(){   
+     const rnd = Math.floor((Math.random() * 10) + 1);    
+     const myNumber = document.getElementById('txtMyNumber').value; 
+	 
+     if (myNumber > rnd){ 
+     const Msg1 = `The number is less than ${myNumber}`; 
+     document.getElementById('card-content').innerHTML = Msg1;  
+    } 
+     else if (myNumber < rnd) { 
+     const Msg2 = `The number is greater than ${myNumber} `;   
+     document.getElementById('card-content').innerHTML = Msg2; 
+    }  
+    else {   
+        const Msg3 = `Congratulations! You picked the correct number!`; 
+        document.getElementById('card-content').innerHTML = Msg3;     
+    }                      
+     } 
+ </script>
+ <!--Below is more html code-->
+ </div>
+ <br>
+  <div id="container">
+<div class="card" >
+        <div class="form-field">
+    <h1 class="card-title">Results</h1> 
+    <div class="form">                
+        <h1 id="card-content"></h1>              
+    </div> 
+</div>
+</div>
+</div>
+</div> 
+<!--Below is html code for return-home-->
+<a class="return-home" target="_blank" href="../../index.html">Return</a>   
+    
+    
+    </body>
+</html>
+
+
+
+
+
+
+

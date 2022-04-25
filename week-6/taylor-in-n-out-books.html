@@ -1,0 +1,159 @@
+<!DOCTYPE html> 
+<html lang="en-us">
+    <head>
+    <title>WEB231-312j-Enterprise-JavaScript-1</title>
+     <link href="taylor-in-n-out-books.css" type="text/css" rel="stylesheet">               
+        <link href="../../global.css" type="text/css" rel="stylesheet">                       
+        <link href="../site.css" type="text/css" rel="stylesheet">                 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+   <body>
+       <!--
+============================================
+Title: Assignment 1.3
+
+Author: Professor Krasso
+Date: 25 MAR 2022
+Modified By: <ANITA TAYLOR>
+Description: This program demonstrates the
+use of JavaScript types, values, and
+and variables in an application.
+===========================================
+-->
+    <header>
+     <h1 class="app-header"><strong>Welcome to In-N-Out-Books</strong></h1>
+  </header>
+      <div id="container">
+      <div class="card">
+        <div class="card-title">My Favorites</div>
+         <div class="form-field">
+       <label for="listing">Choose a listing</label>
+    <select id="favoriteList">
+      <option value= "select">--Select--</option>
+       <option value="books">Top 3 Favorite Books</option>
+       <option value="authors">Top 3 Favorite Authors</option>
+         </select>
+		  </div>
+		 </div>
+		 <div class="scoreboard">
+		 <table class="scoreboardTable">
+		 <thead Class="scoreboardTableHead">
+		 <tr class="scoreboardTableHeaderRow">
+			<th>ISBN</th>
+		   <th>Title</th>
+		    <th>Pages</th>
+			</tr>
+			</thead>
+			<tbody class="scoreboardTable-Body"></tbody>
+			<tr class="scoreboardTableBodyRow">
+			<td>
+			<a href="#" onclick='show(choice());'>9780446365383</a></td>
+			<td><a href="#" onclick='show(choice());'>Gone With The Wind</a></td>
+			<td><a href="#" onclick='show(choice());'>1037</a></td>
+			</tr>
+			<tr class="scoreboardTableBodyRow">
+			<td><a href="#" onclick='show(choice());'>139780618343997</a></td>
+			<td><a href="#" onclick='show(choice());'>The Lord Of The Rings</a></td>
+			<td><a href="#" onclick='show(choice());'>1178</a></td>
+			</tr>
+			<tr class="scoreboardTableBodyRow">
+			<td><a href="#" onclick='show(choice());'>9780743273565</a></td>
+			<td><a href="#" onclick='show(choice());'>The Great Gatsby</a></td>
+			<td><a href="#" onclick='show(choice());'>208</a></td>
+			</td>
+			</tr>
+			</table>
+		 </div>
+		
+
+	
+      <br>
+	  <div class="form-field">
+    <button type="submit" class="btn btn-primary" id=”btnDisplayListing” onclick="choice()">Display Listing</button>
+  </div>
+ <div id="container"> </div>
+ 
+<script>
+Const scoreDiv = document.querySelector("div.scoreboard")
+let tableHeaders = [“ISBN”, “Title", "Pages"]
+Const createScoreboardTable = () => {
+while (scoreDiv.firstChild) scoreDiv.removeChild(scoreDiv.firstChild)
+let scoreboardTable = document.createElement('table')
+scoreboardTableHead.className = 'scoreboardTable'
+
+let scoreboardTable = document.createElement('thead)
+scoreboardTableHead.className = 'scoreboardTableHead'
+
+Let scoreboardTableHeaderRow = document.createElement('tr')
+scoreboardTableHeaderRow.className = 'scoreboardTableHeaderRow'
+
+tableHeaders.forEach(header => {
+let scoreHeader = document.createElement ('th')
+scoreHeader.innerText = header
+scoreboardTableHeaderRow.append(scoreHeader)
+})
+
+scoreboardTableHead.append(scoreboardTableHeaderRow)
+scoreboardTableHead.append(scoreboardTableHead)
+
+let scoreboardTableBody = document.createElement('tbody')
+scoreboardTableBody.className = "scoreboardTable-Body"
+scoreboardTable.append(scoreboardTableBody)
+
+scoreDiv.append(scoreboardTable)
+}                                                                                                                                                                                    ') 
+
+const appendScores =(singleScore, SingleScoreIndex) => {
+const scoreboardTable = document.querySelector('.scoreboardTable')
+
+letscoreboardTableBGodyRow = document.createElement('tr')
+scoreboardTableBodyRow.className = 'scoreboardTableBOdyRow'
+
+let ISBN = document.createElement('td')
+isbnData.innerText = singleScore.isbn
+
+let Title = document.createElement('td')
+TitleData.innerText = singleScore.Title
+
+let Pages = document.createElement('td')
+PagesData.innerText = singleScore.Pages
+
+scoreboardTableBOdyRow.append(ISBN,Title,Pages)
+scoreboardTable.append(scoreboardTableBodyRow)
+}  
+function show(nr) {
+    document.getElementById("ISBN").style.display="none";
+    document.getElementById("Title").style.display="none";
+    document.getElementById("Pages").style.display="none";
+    
+    document.getElementById("table"+nr).style.display="inline-block";
+} 
+document.getElementById('td').addEventListener("on-click",function(){
+    showTable('favoriteList');
+});    
+</script>
+<!--Below is more html code-->
+ </div>
+ <br>
+  <div id="container1">
+<div class="card">
+        <div class="form-field1">
+    <div class="card-title">Sequence Results</div> 
+    <div class="form">                
+        <div id="card-content"></div>              
+    </div> 
+</div>
+</div>
+</div>
+<!--Return link that sends you to WEB 231 landing page in new tab-->
+  <a class="return-home" target="_blank" href="https://aniltaylor.github.io/web-231">Return</a>
+</body>
+</html>
+ 
+
+
+
+
+
+
+

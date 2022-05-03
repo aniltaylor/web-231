@@ -1,1 +1,62 @@
+/* CSS Document */
+                
+                /*
+                
+                ============================================
+                
+                Title: Assignment 7.2
+                ↩
+                Author: Professor Krasso
+                Date: May 2 2022
+                Modified By: <ANITA TAYLOR>
+                Description: This program is the HTML for
+                Javazon assignment
+                ===========================================
+                
+                */
+                
+               body {
+                    font-family: 'Oswald', Verdana, Arial, sans-serif;
+                }
+                #card-title {
+                    box-shadow: -1px 5px 10px -2px grey;  margin-left: 20%;  margin-right: 20%;
+                }
+                #products, #services, #employees {
+                    margin-top: 2%;  text-align: center; color: #3C275A;
+                    font-size: 28px;  margin-left: 20%;   margin-right: 20%;
+                    box-shadow: -1px 5px 10px -2px grey;  padding: 10px;   height: auto;
+                }
+                table {
+                    margin-bottom: 30px;  margin-top: -15px;
+                    text-align: left;  width: 100%;  border-collapse: collapse;
+                }
+                th {
+                    background-color: #3C275A;  color: white;
+                    padding-top: 12px;  padding-left: 9px;  border: solid #ccc 1px;  padding-bottom: 12px;
+                }
+         td {
+                    border: solid #ccc 1px;
+                    padding: 10px;
+                }
+                tr:hover {
+                    background-color: #D6A800;
+                }
+           #form-field {
+                    margin-left: 5%;
+                }
+                                #form-title {
+                    text-align: center;  color: #3C275A; font-size: 28px;
+                }
+                .app-header {
+                    text-align: center;
+                }
+                #btnDisplayListing {
+                    margin-top: 4%;  margin-left: 5%;  margin-bottom: 2%;
+                    background-color: #3C275A;  color: white;   padding-left: 17%;
+                    padding-right: 17%;  padding-top: 1.5%;  padding-bottom: 1.5%;
+                    border: solid black 1px;  border-radius: 2%;
+                }
+                #return {
+                    margin-left: 20%;  text-decoration: none;
+                }
 

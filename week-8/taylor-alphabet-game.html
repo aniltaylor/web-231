@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+     <meta charset="UTF-8">
+     <title>WEB 231 - Enterprise JavaScript I</title>
+     <link href="../global.css" type="text/css" rel="stylesheet" />
+     <link href="taylor-alphabet-game.css" type="text/css" rel="stylesheet"/>
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+   </head>
+
+   <body>
+         <!--
+============================================
+Title: Assignment 8.3
+Author: Professor Krasso
+Date: 10 MAY 2022
+Modified By: <ANITA TAYLOR>
+Description: This program demonstrates the
+use of JavaScript types, values, and
+and variables in an application.
+===========================================
+-->
+       <h1 class="app-header">Welcome to the Alphabet Game!</h1>
+	    <div id="container">
+         <div class="card">
+          <div class="card-title">Alphabet Number Form</div>
+           <div class="form">
+             <div class="form-field">
+                <label>Alphabet Letter Position</label>
+                <input type="text" id="txtPosition" class="input">                  
+                  </div>
+			       </div>
+			       </div>
+                   <div class="form-field">
+                <button id="btnFindLetter" class="btn btn-primary full-width" onclick="findLetter()">Find Letter</button>
+             </div>
+           </div>
+          <br>
+          <!--Below is htmlcode for return-home-->
+       <a class="return-home" target="_blank" href="../../index.html">Return</a> 
+       </div>
+        <br>
+        <!--div for alphabet container-->
+         <div id="alphabet-container">
+          <div class="card">
+             <div class="card-title">Letters in the Alphabet</div>
+              <div class="card-content" id="alphabet"></div>
+                </div>
+                 </div>
+       <!--div for results-->
+             <div id="results-container">
+          <div class="card">
+         <div class="card-title">Results</div>
+       <div class="card-content" id="aresults"></div>
+      </div>
+     <br>
+    </div>
+  </div>
+
+<script>
+ //alphabet Array 
+ const alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
+ ];
+
+ //string for empty loop.
+ let alphabetOutput = "";
+
+ //for loop.
+ for (i in alphabet) {
+ alphabetOutput += alphabet[i] + ', ';
+ }
+
+ //Remove 2 spaces
+ document.getElementById('alphabet').innerHTML = alphabetOutput.slice(0, -2);
+
+ //Runs when clicked.
+ function findLetter() {
+
+ //Takes value binds to variable.
+let pos = document.getElementById('txtPosition').value;
+
+//Starts array at 1 instead of 0.
+let letter = alphabet[pos - 1]; 
+
+//input field undefined, display message.
+if (letter === undefined) {
+document.getElementById('results-container').style.display = "block";
+document.getElementById('aresults').innerHTML = `There are not ${pos} letters in the alphabet`;
+} else {
+//number input less than 27 > 0, display message.
+document.getElementById('results-container').style.display = "block";
+document.getElementById('aresults').innerHTML = `${letter} is at position ${pos} in the alphabet`;
+ }
+ }
+</script>
+</body>
+</html>

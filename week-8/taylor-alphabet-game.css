@@ -1,0 +1,41 @@
+ /* CSS Document */
+/*        
+============================================
+Title: Assignment 8.3
+Author: Professor Krasso
+Date: 10 MAY 2022
+Modified By: <ANITA TAYLOR>
+Description: This program demonstrates the
+use of JavaScript types, values, and
+and variables in an application.
+===========================================
+*/
+
+.app-header {text-align: center; margin-left: 200px; margin-right: 200px; font-size: 28px;}
+
+body
+{ text-align: center;
+font-size: 28px;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;             
+}
+#container{color: #3C275A; text-align: center; box-shadow: 1px 2px 1px 2px #888888; margin-left: 400px; margin-right: 400px;} 
+button {font-size: 16px; width: 300px; height: 40px;
+ 
+background-color: #3C275A; color: #ffffff; border-radius: 5px; margin-top: 20px; margin-bottom: 30px;
+ 
+}
+ #card-title{color: #3C275A; text-align: center; box-shadow: 1px 2px 1px 2px #888888; margin-left: 400px; margin-right: 400px; } 
+ 
+.form-field {padding-top: 20px; padding-bottom: 10px; font-size: 16px;}
+ #alphabet-container{ color: #3C275A; text-align: center; box-shadow: 1px 2px 1px 2px #888888; margin-left: 400px; margin-right: 400px; margin-bottom: 25px; } 
+
+/* Initially hide the results container */
+#results-container{color: #3C275A; text-align: center; box-shadow: 1px 2px 1px 2px #888888; margin-left: 400px; margin-right: 400px;  margin-top:2px; display:none; } 
+
+.card-content {
+  font-size: 28px;
+  text-align: center;
+}
+.return-home { margin-top: -40px; float: left; margin-left: 410px; margin-bottom:55px; text-decoration: none;
+ 
+font-size: 16px;}
